@@ -12,25 +12,43 @@ struct ContentView: View {
     @State private var selection = 0
  
     var body: some View {
-        TabView(selection: $selection){
-            Text("First View")
+        TabView(selection: $selection) {
+            Text("Home")
                 .font(.title)
                 .tabItem {
                     VStack {
                         Image("first")
-                        Text("First")
+                        Text("Home")
                     }
                 }
                 .tag(0)
-            Text("Second View")
+            ScheduleView()
+                .font(.title)
+                .tabItem {
+                    VStack {
+                        Image("first")
+                        Text("Schedule")
+                    }
+                }
+                .tag(1)
+            Text("Silent Alarm")
                 .font(.title)
                 .tabItem {
                     VStack {
                         Image("second")
-                        Text("Second")
+                        Text("Silent Alarm")
                     }
                 }
-                .tag(1)
+                .tag(2)
+            Text("Sleep")
+                .font(.title)
+                .tabItem {
+                    VStack {
+                        Image("second")
+                        Text("Sleep")
+                    }
+                }
+                .tag(3)
         }
     }
 }

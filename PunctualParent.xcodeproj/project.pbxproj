@@ -15,6 +15,19 @@
 		01E1C6F524E1A4B800826FCC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01E1C6F424E1A4B800826FCC /* Preview Assets.xcassets */; };
 		01E1C6F824E1A4B800826FCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01E1C6F624E1A4B800826FCC /* LaunchScreen.storyboard */; };
 		01E1C70324E1A4B900826FCC /* PunctualParentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E1C70224E1A4B900826FCC /* PunctualParentTests.swift */; };
+		01E1C71024E1A5B900826FCC /* ScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E1C70F24E1A5B900826FCC /* ScheduleView.swift */; };
+		01E1C71724E212E400826FCC /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01E1C71524E212E400826FCC /* Interface.storyboard */; };
+		01E1C71924E212E600826FCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01E1C71824E212E600826FCC /* Assets.xcassets */; };
+		01E1C72024E212E600826FCC /* PunctualParentWatchApp Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 01E1C71F24E212E600826FCC /* PunctualParentWatchApp Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		01E1C72524E212E600826FCC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E1C72424E212E600826FCC /* ContentView.swift */; };
+		01E1C72724E212E600826FCC /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E1C72624E212E600826FCC /* HostingController.swift */; };
+		01E1C72924E212E600826FCC /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E1C72824E212E600826FCC /* ExtensionDelegate.swift */; };
+		01E1C72B24E212E600826FCC /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E1C72A24E212E600826FCC /* NotificationController.swift */; };
+		01E1C72D24E212E600826FCC /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E1C72C24E212E600826FCC /* NotificationView.swift */; };
+		01E1C72F24E212E600826FCC /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E1C72E24E212E600826FCC /* ComplicationController.swift */; };
+		01E1C73124E212E700826FCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01E1C73024E212E700826FCC /* Assets.xcassets */; };
+		01E1C73424E212E700826FCC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01E1C73324E212E700826FCC /* Preview Assets.xcassets */; };
+		01E1C73924E212E700826FCC /* PunctualParentWatchApp.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 01E1C71324E212E400826FCC /* PunctualParentWatchApp.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,7 +38,46 @@
 			remoteGlobalIDString = 01E1C6E424E1A4B500826FCC;
 			remoteInfo = PunctualParent;
 		};
+		01E1C72124E212E600826FCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01E1C6DD24E1A4B400826FCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01E1C71E24E212E600826FCC;
+			remoteInfo = "PunctualParentWatchApp Extension";
+		};
+		01E1C73724E212E700826FCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01E1C6DD24E1A4B400826FCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01E1C71224E212E400826FCC;
+			remoteInfo = PunctualParentWatchApp;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		01E1C73D24E212E700826FCC /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				01E1C72024E212E600826FCC /* PunctualParentWatchApp Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01E1C74124E212E700826FCC /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				01E1C73924E212E700826FCC /* PunctualParentWatchApp.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		01E1C6E524E1A4B500826FCC /* PunctualParent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PunctualParent.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,6 +92,22 @@
 		01E1C6FE24E1A4B900826FCC /* PunctualParentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PunctualParentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		01E1C70224E1A4B900826FCC /* PunctualParentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PunctualParentTests.swift; sourceTree = "<group>"; };
 		01E1C70424E1A4B900826FCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01E1C70F24E1A5B900826FCC /* ScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleView.swift; sourceTree = "<group>"; };
+		01E1C71324E212E400826FCC /* PunctualParentWatchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PunctualParentWatchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01E1C71624E212E400826FCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		01E1C71824E212E600826FCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		01E1C71A24E212E600826FCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01E1C71F24E212E600826FCC /* PunctualParentWatchApp Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "PunctualParentWatchApp Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01E1C72424E212E600826FCC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		01E1C72624E212E600826FCC /* HostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
+		01E1C72824E212E600826FCC /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		01E1C72A24E212E600826FCC /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		01E1C72C24E212E600826FCC /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		01E1C72E24E212E600826FCC /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		01E1C73024E212E700826FCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		01E1C73324E212E700826FCC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		01E1C73524E212E700826FCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01E1C73624E212E700826FCC /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +125,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		01E1C71C24E212E600826FCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -65,6 +140,8 @@
 			children = (
 				01E1C6E724E1A4B500826FCC /* PunctualParent */,
 				01E1C70124E1A4B900826FCC /* PunctualParentTests */,
+				01E1C71424E212E400826FCC /* PunctualParentWatchApp */,
+				01E1C72324E212E600826FCC /* PunctualParentWatchApp Extension */,
 				01E1C6E624E1A4B500826FCC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -74,6 +151,8 @@
 			children = (
 				01E1C6E524E1A4B500826FCC /* PunctualParent.app */,
 				01E1C6FE24E1A4B900826FCC /* PunctualParentTests.xctest */,
+				01E1C71324E212E400826FCC /* PunctualParentWatchApp.app */,
+				01E1C71F24E212E600826FCC /* PunctualParentWatchApp Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -89,6 +168,7 @@
 				01E1C6F924E1A4B800826FCC /* Info.plist */,
 				01E1C6EC24E1A4B500826FCC /* PunctualParent.xcdatamodeld */,
 				01E1C6F324E1A4B800826FCC /* Preview Content */,
+				01E1C70F24E1A5B900826FCC /* ScheduleView.swift */,
 			);
 			path = PunctualParent;
 			sourceTree = "<group>";
@@ -110,6 +190,41 @@
 			path = PunctualParentTests;
 			sourceTree = "<group>";
 		};
+		01E1C71424E212E400826FCC /* PunctualParentWatchApp */ = {
+			isa = PBXGroup;
+			children = (
+				01E1C71524E212E400826FCC /* Interface.storyboard */,
+				01E1C71824E212E600826FCC /* Assets.xcassets */,
+				01E1C71A24E212E600826FCC /* Info.plist */,
+			);
+			path = PunctualParentWatchApp;
+			sourceTree = "<group>";
+		};
+		01E1C72324E212E600826FCC /* PunctualParentWatchApp Extension */ = {
+			isa = PBXGroup;
+			children = (
+				01E1C72424E212E600826FCC /* ContentView.swift */,
+				01E1C72624E212E600826FCC /* HostingController.swift */,
+				01E1C72824E212E600826FCC /* ExtensionDelegate.swift */,
+				01E1C72A24E212E600826FCC /* NotificationController.swift */,
+				01E1C72C24E212E600826FCC /* NotificationView.swift */,
+				01E1C72E24E212E600826FCC /* ComplicationController.swift */,
+				01E1C73024E212E700826FCC /* Assets.xcassets */,
+				01E1C73524E212E700826FCC /* Info.plist */,
+				01E1C73624E212E700826FCC /* PushNotificationPayload.apns */,
+				01E1C73224E212E700826FCC /* Preview Content */,
+			);
+			path = "PunctualParentWatchApp Extension";
+			sourceTree = "<group>";
+		};
+		01E1C73224E212E700826FCC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				01E1C73324E212E700826FCC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -120,10 +235,12 @@
 				01E1C6E124E1A4B500826FCC /* Sources */,
 				01E1C6E224E1A4B500826FCC /* Frameworks */,
 				01E1C6E324E1A4B500826FCC /* Resources */,
+				01E1C74124E212E700826FCC /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				01E1C73824E212E700826FCC /* PBXTargetDependency */,
 			);
 			name = PunctualParent;
 			productName = PunctualParent;
@@ -148,6 +265,40 @@
 			productReference = 01E1C6FE24E1A4B900826FCC /* PunctualParentTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		01E1C71224E212E400826FCC /* PunctualParentWatchApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01E1C73E24E212E700826FCC /* Build configuration list for PBXNativeTarget "PunctualParentWatchApp" */;
+			buildPhases = (
+				01E1C71124E212E400826FCC /* Resources */,
+				01E1C73D24E212E700826FCC /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01E1C72224E212E600826FCC /* PBXTargetDependency */,
+			);
+			name = PunctualParentWatchApp;
+			productName = PunctualParentWatchApp;
+			productReference = 01E1C71324E212E400826FCC /* PunctualParentWatchApp.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		01E1C71E24E212E600826FCC /* PunctualParentWatchApp Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01E1C73A24E212E700826FCC /* Build configuration list for PBXNativeTarget "PunctualParentWatchApp Extension" */;
+			buildPhases = (
+				01E1C71B24E212E600826FCC /* Sources */,
+				01E1C71C24E212E600826FCC /* Frameworks */,
+				01E1C71D24E212E600826FCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PunctualParentWatchApp Extension";
+			productName = "PunctualParentWatchApp Extension";
+			productReference = 01E1C71F24E212E600826FCC /* PunctualParentWatchApp Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -164,6 +315,12 @@
 					01E1C6FD24E1A4B900826FCC = {
 						CreatedOnToolsVersion = 11.5;
 						TestTargetID = 01E1C6E424E1A4B500826FCC;
+					};
+					01E1C71224E212E400826FCC = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					01E1C71E24E212E600826FCC = {
+						CreatedOnToolsVersion = 11.5;
 					};
 				};
 			};
@@ -182,6 +339,8 @@
 			targets = (
 				01E1C6E424E1A4B500826FCC /* PunctualParent */,
 				01E1C6FD24E1A4B900826FCC /* PunctualParentTests */,
+				01E1C71224E212E400826FCC /* PunctualParentWatchApp */,
+				01E1C71E24E212E600826FCC /* PunctualParentWatchApp Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -204,6 +363,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		01E1C71124E212E400826FCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01E1C71924E212E600826FCC /* Assets.xcassets in Resources */,
+				01E1C71724E212E400826FCC /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01E1C71D24E212E600826FCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01E1C73424E212E700826FCC /* Preview Assets.xcassets in Resources */,
+				01E1C73124E212E700826FCC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -211,6 +388,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01E1C71024E1A5B900826FCC /* ScheduleView.swift in Sources */,
 				01E1C6E924E1A4B500826FCC /* AppDelegate.swift in Sources */,
 				01E1C6EE24E1A4B500826FCC /* PunctualParent.xcdatamodeld in Sources */,
 				01E1C6F024E1A4B500826FCC /* ContentView.swift in Sources */,
@@ -226,6 +404,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		01E1C71B24E212E600826FCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01E1C72724E212E600826FCC /* HostingController.swift in Sources */,
+				01E1C72524E212E600826FCC /* ContentView.swift in Sources */,
+				01E1C72B24E212E600826FCC /* NotificationController.swift in Sources */,
+				01E1C72924E212E600826FCC /* ExtensionDelegate.swift in Sources */,
+				01E1C72D24E212E600826FCC /* NotificationView.swift in Sources */,
+				01E1C72F24E212E600826FCC /* ComplicationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -233,6 +424,16 @@
 			isa = PBXTargetDependency;
 			target = 01E1C6E424E1A4B500826FCC /* PunctualParent */;
 			targetProxy = 01E1C6FF24E1A4B900826FCC /* PBXContainerItemProxy */;
+		};
+		01E1C72224E212E600826FCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01E1C71E24E212E600826FCC /* PunctualParentWatchApp Extension */;
+			targetProxy = 01E1C72124E212E600826FCC /* PBXContainerItemProxy */;
+		};
+		01E1C73824E212E700826FCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01E1C71224E212E400826FCC /* PunctualParentWatchApp */;
+			targetProxy = 01E1C73724E212E700826FCC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -243,6 +444,14 @@
 				01E1C6F724E1A4B800826FCC /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		01E1C71524E212E400826FCC /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01E1C71624E212E400826FCC /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -446,6 +655,92 @@
 			};
 			name = Release;
 		};
+		01E1C73B24E212E700826FCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"PunctualParentWatchApp Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = UBBFM4Q7C8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "PunctualParentWatchApp Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.setecastronomy.PunctualParent.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Debug;
+		};
+		01E1C73C24E212E700826FCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"PunctualParentWatchApp Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = UBBFM4Q7C8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "PunctualParentWatchApp Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.setecastronomy.PunctualParent.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Release;
+		};
+		01E1C73F24E212E700826FCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UBBFM4Q7C8;
+				IBSC_MODULE = PunctualParentWatchApp_Extension;
+				INFOPLIST_FILE = PunctualParentWatchApp/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.setecastronomy.PunctualParent.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Debug;
+		};
+		01E1C74024E212E700826FCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UBBFM4Q7C8;
+				IBSC_MODULE = PunctualParentWatchApp_Extension;
+				INFOPLIST_FILE = PunctualParentWatchApp/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.setecastronomy.PunctualParent.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -472,6 +767,24 @@
 			buildConfigurations = (
 				01E1C70B24E1A4B900826FCC /* Debug */,
 				01E1C70C24E1A4B900826FCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01E1C73A24E212E700826FCC /* Build configuration list for PBXNativeTarget "PunctualParentWatchApp Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01E1C73B24E212E700826FCC /* Debug */,
+				01E1C73C24E212E700826FCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01E1C73E24E212E700826FCC /* Build configuration list for PBXNativeTarget "PunctualParentWatchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01E1C73F24E212E700826FCC /* Debug */,
+				01E1C74024E212E700826FCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
