@@ -17,7 +17,7 @@ struct ContentView: View {
                 .font(.title)
                 .tabItem {
                     VStack {
-                        Image("first")
+                        Image(systemName: "list.dash")
                         Text("Home")
                     }
                 }
@@ -26,7 +26,7 @@ struct ContentView: View {
                 .font(.title)
                 .tabItem {
                     VStack {
-                        Image("first")
+                        Image(systemName: "calendar")
                         Text("Schedule")
                     }
                 }
@@ -35,21 +35,21 @@ struct ContentView: View {
                 .font(.title)
                 .tabItem {
                     VStack {
-                        Image("second")
+                        Image(systemName: "timer")
                         Text("Silent Alarm")
                     }
                 }
                 .tag(2)
-            Text("Sleep")
+            TrackerView()
                 .font(.title)
                 .tabItem {
                     VStack {
-                        Image("second")
+                        Image(systemName: "clock")
                         Text("Sleep")
                     }
                 }
                 .tag(3)
-        }
+        }.accentColor(.orange)
     }
 }
 
