@@ -35,6 +35,10 @@
 		01E1C74F24E37ABE00826FCC /* TimeIntervalConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E1C74E24E37ABE00826FCC /* TimeIntervalConstants.swift */; };
 		01E1C75124E37AEB00826FCC /* ScheduleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E1C75024E37AEB00826FCC /* ScheduleViewModel.swift */; };
 		01E1C75324E37D7600826FCC /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E1C75224E37D7600826FCC /* Schedule.swift */; };
+		2CDFE6DAE87C5F6D62DA4F0D /* Pods_PunctualParentWatchApp_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94518F65FBAA82B3EB168B4C /* Pods_PunctualParentWatchApp_Extension.framework */; };
+		4A14D25206203E45F7EB2713 /* Pods_PunctualParentWatchApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36EE8B33F030753F362B7E5F /* Pods_PunctualParentWatchApp.framework */; };
+		5C6D8283376566EC283EF53A /* Pods_PunctualParent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB2D549D80D56D44818C3800 /* Pods_PunctualParent.framework */; };
+		91045D08D5D1BCDA1442316D /* Pods_PunctualParentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B39CC9B1C43A66C1A41C45A5 /* Pods_PunctualParentTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -121,6 +125,18 @@
 		01E1C74E24E37ABE00826FCC /* TimeIntervalConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeIntervalConstants.swift; sourceTree = "<group>"; };
 		01E1C75024E37AEB00826FCC /* ScheduleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewModel.swift; sourceTree = "<group>"; };
 		01E1C75224E37D7600826FCC /* Schedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
+		1F37E04F518176C8BE939D33 /* Pods-PunctualParentWatchApp Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PunctualParentWatchApp Extension.release.xcconfig"; path = "Target Support Files/Pods-PunctualParentWatchApp Extension/Pods-PunctualParentWatchApp Extension.release.xcconfig"; sourceTree = "<group>"; };
+		36EE8B33F030753F362B7E5F /* Pods_PunctualParentWatchApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PunctualParentWatchApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B544FE2050EE54AEDE1303A /* Pods-PunctualParentWatchApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PunctualParentWatchApp.release.xcconfig"; path = "Target Support Files/Pods-PunctualParentWatchApp/Pods-PunctualParentWatchApp.release.xcconfig"; sourceTree = "<group>"; };
+		5BAADDA2344DAB3AECC9A4D8 /* Pods-PunctualParentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PunctualParentTests.debug.xcconfig"; path = "Target Support Files/Pods-PunctualParentTests/Pods-PunctualParentTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7DFFC2D5A542D4958642A283 /* Pods-PunctualParent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PunctualParent.release.xcconfig"; path = "Target Support Files/Pods-PunctualParent/Pods-PunctualParent.release.xcconfig"; sourceTree = "<group>"; };
+		90CDA82D6786B2E684F645D4 /* Pods-PunctualParentWatchApp Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PunctualParentWatchApp Extension.debug.xcconfig"; path = "Target Support Files/Pods-PunctualParentWatchApp Extension/Pods-PunctualParentWatchApp Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		94518F65FBAA82B3EB168B4C /* Pods_PunctualParentWatchApp_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PunctualParentWatchApp_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A01F97A73D731FFE8735C64A /* Pods-PunctualParent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PunctualParent.debug.xcconfig"; path = "Target Support Files/Pods-PunctualParent/Pods-PunctualParent.debug.xcconfig"; sourceTree = "<group>"; };
+		A48E6438F6E4766C2A420ECB /* Pods-PunctualParentWatchApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PunctualParentWatchApp.debug.xcconfig"; path = "Target Support Files/Pods-PunctualParentWatchApp/Pods-PunctualParentWatchApp.debug.xcconfig"; sourceTree = "<group>"; };
+		B39CC9B1C43A66C1A41C45A5 /* Pods_PunctualParentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PunctualParentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD561F5D7B29117B9F271F7F /* Pods-PunctualParentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PunctualParentTests.release.xcconfig"; path = "Target Support Files/Pods-PunctualParentTests/Pods-PunctualParentTests.release.xcconfig"; sourceTree = "<group>"; };
+		EB2D549D80D56D44818C3800 /* Pods_PunctualParent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PunctualParent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +144,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CDFE6DAE87C5F6D62DA4F0D /* Pods_PunctualParentWatchApp_Extension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +152,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C6D8283376566EC283EF53A /* Pods_PunctualParent.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,6 +160,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91045D08D5D1BCDA1442316D /* Pods_PunctualParentTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D8069DEBCED1621E5B6224A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A14D25206203E45F7EB2713 /* Pods_PunctualParentWatchApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,6 +234,7 @@
 				01C8BB8D24F5F41100A5C069 /* PunctualParentWatchApp Extension */,
 				01E1C6E624E1A4B500826FCC /* Products */,
 				B7AB04675D044A3BDF883A20 /* Pods */,
+				9A89300578ED512B8E86373B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -285,9 +313,28 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		9A89300578ED512B8E86373B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB2D549D80D56D44818C3800 /* Pods_PunctualParent.framework */,
+				B39CC9B1C43A66C1A41C45A5 /* Pods_PunctualParentTests.framework */,
+				36EE8B33F030753F362B7E5F /* Pods_PunctualParentWatchApp.framework */,
+				94518F65FBAA82B3EB168B4C /* Pods_PunctualParentWatchApp_Extension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B7AB04675D044A3BDF883A20 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
+				A01F97A73D731FFE8735C64A /* Pods-PunctualParent.debug.xcconfig */,
+				7DFFC2D5A542D4958642A283 /* Pods-PunctualParent.release.xcconfig */,
+				5BAADDA2344DAB3AECC9A4D8 /* Pods-PunctualParentTests.debug.xcconfig */,
+				BD561F5D7B29117B9F271F7F /* Pods-PunctualParentTests.release.xcconfig */,
+				A48E6438F6E4766C2A420ECB /* Pods-PunctualParentWatchApp.debug.xcconfig */,
+				3B544FE2050EE54AEDE1303A /* Pods-PunctualParentWatchApp.release.xcconfig */,
+				90CDA82D6786B2E684F645D4 /* Pods-PunctualParentWatchApp Extension.debug.xcconfig */,
+				1F37E04F518176C8BE939D33 /* Pods-PunctualParentWatchApp Extension.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -299,8 +346,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 01C8BBA824F5F41100A5C069 /* Build configuration list for PBXNativeTarget "PunctualParentWatchApp" */;
 			buildPhases = (
+				721D668423F0932464F32CA3 /* [CP] Check Pods Manifest.lock */,
 				01C8BB7B24F5F40D00A5C069 /* Resources */,
 				01C8BBA724F5F41100A5C069 /* Embed App Extensions */,
+				2D8069DEBCED1621E5B6224A /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -316,6 +365,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 01C8BBA424F5F41100A5C069 /* Build configuration list for PBXNativeTarget "PunctualParentWatchApp Extension" */;
 			buildPhases = (
+				04A84DB3B2FDDF4DAB53D95C /* [CP] Check Pods Manifest.lock */,
 				01C8BB8524F5F41100A5C069 /* Sources */,
 				01C8BB8624F5F41100A5C069 /* Frameworks */,
 				01C8BB8724F5F41100A5C069 /* Resources */,
@@ -333,10 +383,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 01E1C70724E1A4B900826FCC /* Build configuration list for PBXNativeTarget "PunctualParent" */;
 			buildPhases = (
+				E2FEF97ACA31A4975DF15137 /* [CP] Check Pods Manifest.lock */,
 				01E1C6E124E1A4B500826FCC /* Sources */,
 				01E1C6E224E1A4B500826FCC /* Frameworks */,
 				01E1C6E324E1A4B500826FCC /* Resources */,
 				01E1C74124E212E700826FCC /* Embed Watch Content */,
+				601B3FCA23190BEC3FBA8789 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -352,6 +404,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 01E1C70A24E1A4B900826FCC /* Build configuration list for PBXNativeTarget "PunctualParentTests" */;
 			buildPhases = (
+				4B5D22935D7E703ED5819285 /* [CP] Check Pods Manifest.lock */,
 				01E1C6FA24E1A4B900826FCC /* Sources */,
 				01E1C6FB24E1A4B900826FCC /* Frameworks */,
 				01E1C6FC24E1A4B900826FCC /* Resources */,
@@ -450,6 +503,114 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		04A84DB3B2FDDF4DAB53D95C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PunctualParentWatchApp Extension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B5D22935D7E703ED5819285 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PunctualParentTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		601B3FCA23190BEC3FBA8789 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PunctualParent/Pods-PunctualParent-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PunctualParent/Pods-PunctualParent-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PunctualParent/Pods-PunctualParent-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		721D668423F0932464F32CA3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PunctualParentWatchApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2FEF97ACA31A4975DF15137 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PunctualParent-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		01C8BB8524F5F41100A5C069 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -533,6 +694,7 @@
 /* Begin XCBuildConfiguration section */
 		01C8BBA524F5F41100A5C069 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90CDA82D6786B2E684F645D4 /* Pods-PunctualParentWatchApp Extension.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
@@ -557,6 +719,7 @@
 		};
 		01C8BBA624F5F41100A5C069 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F37E04F518176C8BE939D33 /* Pods-PunctualParentWatchApp Extension.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
@@ -581,6 +744,7 @@
 		};
 		01C8BBA924F5F41100A5C069 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A48E6438F6E4766C2A420ECB /* Pods-PunctualParentWatchApp.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -600,6 +764,7 @@
 		};
 		01C8BBAA24F5F41100A5C069 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B544FE2050EE54AEDE1303A /* Pods-PunctualParentWatchApp.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -733,6 +898,7 @@
 		};
 		01E1C70824E1A4B900826FCC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A01F97A73D731FFE8735C64A /* Pods-PunctualParent.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -753,6 +919,7 @@
 		};
 		01E1C70924E1A4B900826FCC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DFFC2D5A542D4958642A283 /* Pods-PunctualParent.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -773,6 +940,7 @@
 		};
 		01E1C70B24E1A4B900826FCC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BAADDA2344DAB3AECC9A4D8 /* Pods-PunctualParentTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -795,6 +963,7 @@
 		};
 		01E1C70C24E1A4B900826FCC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD561F5D7B29117B9F271F7F /* Pods-PunctualParentTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

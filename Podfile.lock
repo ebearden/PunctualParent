@@ -1,0 +1,16 @@
+PODS:
+  - DateToolsSwift (5.0.0)
+
+DEPENDENCIES:
+  - DateToolsSwift
+
+SPEC REPOS:
+  trunk:
+    - DateToolsSwift
+
+SPEC CHECKSUMS:
+  DateToolsSwift: 4207ada6ad615d8dc076323d27037c94916dbfa6
+
+PODFILE CHECKSUM: 5600e3f1291903629408a18fda2e080126eb5f0a
+
+COCOAPODS: 1.9.3
